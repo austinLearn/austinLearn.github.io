@@ -1,0 +1,78 @@
+
+@keyframes example {
+  0%   {background-color: rgba(255,0,0,0.3); left:0px; top:0px;}
+  45%  {background-color: rgba(190,60,190,0.3); left:250px; top:0px;}
+  50%  {background-color: rgba(0,0,255,0.3); left:250px; top:50px;}
+  75%  {background-color: rgba(0,255,0,0.3); left:0px; top:50px;}
+  100% {background-color: rgba(255,0,0,0.3); left:0px; top:0px;}
+}
+
+/*
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+*/
+
+
+
+
+body{
+    background-image: url("https://buffer.com/library/wp-content/uploads/2016/06/giphy.gif");
+    background-color: blue;
+
+    background-size:cover;
+
+    color: white;
+}
+
+div, img{
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+
+h2{
+    font-size: 70px;
+}
+
+h3{
+    font-size: 30px;
+    font-style: oblique;
+}
+
+li{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// end of file
